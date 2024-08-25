@@ -55,7 +55,7 @@ main {
 
 /* Estilo para la imagen */
 .image1 {
-    max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
+    max-width: 10px; /* Ajusta el tamaño máximo de la imagen */
     margin-right: 20px; /* Espacio entre la imagen y el texto */
     border-radius: 8px; /* Opcional: redondea las esquinas de la imagen */
 }
