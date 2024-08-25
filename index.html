@@ -3,66 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>&lt;Física/Jhohn_E/&gt</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            color: #ffffff;
-            background: linear-gradient(to bottom, #333333, #000000);
-            text-align: center;
-        }
-        header {
-            background-color: #444444;
-            padding: 0.5rem;
-            border-bottom: 0px solid #555555;
-        }
-        main {
-            padding: 2rem;
-        }
-        .introduction {
-            background-color: #2a2a2a;
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin: 0 auto;
-            max-width: 800px;
-            text-align: center;
-            color: #ffffff;
-        }
-        .introduction h2 {
-            color: #00bfff; /* Azul brillante */
-        }
-        footer {
-            background-color: #444444;
-            padding: 0.5rem;
-            border-top: 1px solid #555555;
-            position: ;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Física Jhohn_e</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>&lt;Física/Jhohn_E/&gt</h1>
+    <header class="navbar">
+        <a href="#slide1">Inicio</a>
+        <a href="#slide2">¿Qué es la Física?</a>
+        <a href="#slide3">Importancia de la Física</a>
     </header>
-    <main>
-        <div class="introduction">
-            <h2>¿Qué es la Física?</h2>
-            <p>
-                La física es una ciencia experimental fundamental que estudia las propiedades y el comportamiento de la materia y la energía. Se basa en el método científico, utilizando experimentos y observaciones para desarrollar teorías y modelos que expliquen fenómenos naturales. Esta disciplina es esencial para entender cómo funciona el universo, desde las partículas subatómicas hasta las galaxias.
-            </p>
-            <p>
-                La física también es una herramienta crucial en el desarrollo de nuevas tecnologías y en la resolución de problemas prácticos. Sus principios son la base de muchas otras ciencias y campos de la ingeniería. La relación entre la física y las matemáticas es estrecha; las matemáticas proporcionan el lenguaje y las herramientas necesarias para modelar y analizar los fenómenos físicos de manera precisa.
-            </p>
-            <p>
-                Además de su aplicación práctica, la física ofrece una comprensión profunda de las leyes que rigen el universo, y es una disciplina en constante evolución, con nuevas teorías y descubrimientos que amplían nuestro conocimiento del mundo natural.
-            </p>
+
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <h1>Física Jhohn_e</h1>
+            <p>Bienvenido a la presentación sobre Física.</p>
         </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 &lt;Física/Jhohn_E/&gt</p>
-    </footer>
+
+        <div class="mySlides">
+            <h2>¿Qué es la Física?</h2>
+            <div class="content-box">
+                <p>
+                    La física es la ciencia que estudia los fenómenos naturales que ocurren en el universo. Se enfoca en entender las leyes fundamentales que rigen el comportamiento de la materia y la energía. Desde el movimiento de los objetos hasta la estructura del cosmos, la física busca explicar cómo y por qué ocurren estos eventos. Incluye subdisciplinas como la mecánica, la termodinámica, la electromagnética y la física cuántica, cada una explorando diferentes aspectos del mundo físico. A través de experimentos y teorías, los físicos intentan descifrar los principios que subyacen en los procesos naturales, contribuyendo al avance de la tecnología y el conocimiento.
+                </p>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <h2>¿Por qué es importante la Física?</h2>
+            <div class="content-box">
+                <p>
+                    La física es crucial porque proporciona la base para comprender cómo funciona el mundo y el universo. Desde la electricidad que alimenta nuestros hogares hasta las tecnologías avanzadas en medicina, la física juega un papel esencial en la vida cotidiana. Los avances en física han llevado al desarrollo de dispositivos electrónicos, técnicas de imagen médica y soluciones a problemas complejos en ingeniería. Además, la física impulsa la innovación científica y tecnológica, fomentando el progreso en campos como la energía renovable y la exploración espacial. En resumen, el estudio de la física no solo enriquece nuestro conocimiento del universo, sino que también tiene aplicaciones prácticas significativas que impactan positivamente en la sociedad.
+                </p>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
