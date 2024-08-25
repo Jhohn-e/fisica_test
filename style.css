@@ -44,6 +44,7 @@ main {
 }
 
 .header{
+  font-size: 25px;
   margin-top:230px;
   margin-bottom:230px;
   display: flex;
@@ -61,13 +62,16 @@ main {
 }
 
 .introduccion{
+  font-size: 30px;
    margin-top:80px;
   margin-bottom:100px;
 }
 /* Estilo para los cuadros de contenido */
 .content-box {
+    font-size: 28px;
+    text-align: center;
     background-color: #2e2e2e; /* Gris oscuro */
-    padding: 20px;
+    padding: 25px;
     margin-bottom: 100px;
     border-radius: 8px;
 }
