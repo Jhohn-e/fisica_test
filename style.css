@@ -46,11 +46,21 @@ main {
 .header{
   margin-top:230px;
   margin-bottom:230px;
+  margin-left:50px;
+  align-items: center;
+  display: flex;
+}
+
+/* Estilo para la imagen */
+.image1 {
+    max-width: 200px; /* Ajusta el tamaño máximo de la imagen */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    border-radius: 8px; /* Opcional: redondea las esquinas de la imagen */
 }
 
 .introduccion{
    margin-top:80px;
-   margin-bottom:100px;
+  margin-bottom:100px;
 }
 /* Estilo para los cuadros de contenido */
 .content-box {
