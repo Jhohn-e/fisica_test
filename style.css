@@ -1,7 +1,7 @@
 /* Estilo global para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 10;
     padding: 0;
     background: linear-gradient(180deg, #000000, #434343); /* Degradado negro a gris oscuro */
     color: #fff;
@@ -15,7 +15,7 @@ body {
     width: 100%;
     background-color: #333;
     overflow: hidden;
-    z-index: 1000; /* Asegura que la barra esté sobre otros elementos */
+    z-index: 20; /* Asegura que la barra esté sobre otros elementos */
 }
 
 .navbar a {
@@ -34,16 +34,16 @@ body {
 
 /* Estilo para el contenedor de diapositivas */
 .slideshow-container {
-    position: relative;
+    position: static;
     max-width: 800px;
     margin: auto;
-    padding-top: 60px; /* Espacio para la barra de navegación fija */
+    padding-top: 100px; /* Espacio para la barra de navegación fija */
 }
 
 /* Estilo para cada diapositiva */
 .mySlides {
-    display: none;
-    padding: 20px;
+    display: table;
+    padding: 100px;
 }
 
 .mySlides h1, .mySlides h2 {
@@ -52,7 +52,7 @@ body {
 
 .content-box {
     background-color: #2e2e2e; /* Gris oscuro */
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     margin-top: 20px;
 }
@@ -71,6 +71,11 @@ body {
     border-radius: 0 3px 3px 0;
     background-color: rgba(0,0,0,0.5);
     user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 .next {
