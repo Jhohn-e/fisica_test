@@ -66,7 +66,7 @@ body {
 .content-box {
   width: 80%;
   margin:inherit  ;
-  font-size: 28px;
+  font-size: 25px;
   text-align: center;
   background-color: #2e2e2e; 
   padding: 10%;
@@ -77,7 +77,7 @@ body {
 
 /* Estilo para los títulos */
 h2 {
-  margin-top:50px;
+  margin-top:5%;
   color: #ffffff;
 }
 
