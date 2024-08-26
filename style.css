@@ -129,15 +129,32 @@ h1 {
   margin: 20px;
   border-radius:10px;
   overflow: hidden;
-  background: rgb(210, 210, 210)
-;
-  box-shadow: 0 1px 10px rgba(255,165,255,0.8);
+  background: rgb(210, 210, 210);
+  
   cursor: default;
   transition: all 400ms ease;
 }
 
-.tarjetas_explorar:hover{
-  box-shadow: 0 5px 30px rgba(255,165,255,1);
+.tarjetas1 .tarjetas_explorar{
+  box-shadow: 0 1px 15px rgba(25,165,255,0.8);
+}
+.tarjetas2 .tarjetas_explorar{
+  box-shadow: 0 1px 15px rgba(250,165,255,0.8);
+}
+.tarjetas3 .tarjetas_explorar{
+  box-shadow: 0 1px 15px rgba(60,200,10,0.8);
+}
+
+.tarjetas1 .tarjetas_explorar:hover{
+  box-shadow: 0 5px 40px rgba(25,165,255,1);
+  transform: translateY(-3%);
+}
+.tarjetas2 .tarjetas_explorar:hover{
+  box-shadow: 0 5px 40px rgba(250,165,255,1);
+  transform: translateY(-3%);
+}
+.tarjetas3 .tarjetas_explorar:hover{
+  box-shadow: 0 5px 40px rgba(60,200,10,1);
   transform: translateY(-3%);
 }
 
