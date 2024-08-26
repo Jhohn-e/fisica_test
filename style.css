@@ -113,6 +113,42 @@ h1 {
 
 
 
+/* Estilo que responda al dispositivo*/
+@media screen and (max-width:800px){
+  .titulo{
+    padding:5px;
+    font-size: 20px;
+  }
+  h2{
+    margin-top:20px;
+    font-size: 20px;
+  }
+  .Bienvenida{
+    font-size: 25px;
+  }
+  .content-box{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:500px){
+  .titulo{
+    padding:5px;
+    font-size: 10px;
+  }
+  h2{
+    margin-top:50px;
+    font-size: 15px;
+  }
+  .Bienvenida{
+    font-size: 20px;
+  }
+  .content-box{
+    font-size: 13px;
+  }
+}
+
+
 
 
 
