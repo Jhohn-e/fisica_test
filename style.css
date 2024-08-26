@@ -64,14 +64,14 @@ body {
 
 /* Estilo para los cuadros de contenido */
 .content-box {
-  width: 95%;
+  width: auto;
   margin: auto;
   font-size: 25px;
   text-align: center;
   background-color: #2e2e2e; 
   padding: 5px 25px 5px 25px;
   margin-top:20px;
-  margin-bottom: 50px;
+  margin-bottom: 0;
   border-radius: 8px;
 }
 
